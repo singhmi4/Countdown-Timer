@@ -18,6 +18,7 @@ body, html {
   
   h1 {
     font-size: 32px;
+    font-weight: 700;
   }
   
   .event-sec {
@@ -37,20 +38,26 @@ body, html {
   }
   
   #countdown-btn {
-    border: 0;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #555555;
-    color: white;
+    font-size: 1.25em;
+    color: #3B86FF;
+    background-color: white;
+    width: 240px;
+    padding: 5px;
+    border: 1px solid #3B86FF; 
     border-radius: 5px;
-    transition: 0.25s;
+    transition: 0.2s;
   }
   
   #countdown-btn:hover {
-    background-color: #008CBA;
+    background-color: #3B86FF;
     color: white;
   }
+
+  #countdown-btn:focus {
+    background-color: #0000CD;
+    color: white;
+  }
+
   
   #countdown-msg {
     font-size: 24px;
