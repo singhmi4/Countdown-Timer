@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="event-sec">
+          <label for="event-name">Name of Event:</label>
+          <input type="text" id="event-name" placeholder="Name of Event?">
+        </div>
+        <div class="event-sec">
+          <label for="event-date">Date:</label>
+          <input type="date" id="event-date" placeholder="yyyy-mm-dd">
+        </div>
+        <div class="event-sec">
+          <label for="event-time">Time:</label>
+          <input type="time" id="event-time" placeholder="HH : MM AM/PM">
+        </div>
+        
+        <button id="countdown-btn">Start Countdown Timer</button>
+        <div id="countdown-msg"></div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
